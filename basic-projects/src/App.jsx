@@ -3,14 +3,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // css import
 import "./App.css";
-import ProfileCard from "./Projects/ProfileCard";
+import ProfileCard from "./basic-projects/ProfileCard";
 import Home from "./Pages/Home";
-import DateCounter from "./Projects/DateCounter";
-import FarAwayTravel from "./Projects/FarAwayTravel";
-import FlashCard from "./Projects/FlashCard";
-import Accordion from "./Projects/Accordion";
-import PropsChildren from "./Projects/PropsChildren";
-import TipCalculator from "./Projects/TipCalculator";
+import DateCounter from "./basic-projects/DateCounter";
+import FarAwayTravel from "./basic-projects/FarAwayTravel";
+import FlashCard from "./basic-projects/FlashCard";
+import Accordion from "./basic-projects/Accordion";
+import PropsChildren from "./basic-projects/PropsChildren";
+import TipCalculator from "./basic-projects/TipCalculator";
+import EatNSplit from "./basic-projects/eat-n-split/EatNSplit";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/accordion" element={<Accordion />} />
           <Route path="/tip-calculator" element={<TipCalculator />} />
           <Route path="/props-children" element={<PropsChildren />} />
+          <Route path="/eat-n-split" element={<EatNSplit />} />
         </Routes>
       </Router>
     </>

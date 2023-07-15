@@ -40,6 +40,9 @@ const Accordion = () => {
 
 export default Accordion;
 
+
+//Accordion Item
+
 function AccordionItem({ num, title, children, curOpen, onOpen }) {
   const isOpen = num === curOpen;
 

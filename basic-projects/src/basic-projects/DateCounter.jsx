@@ -34,6 +34,7 @@ const DateCounter = () => {
           {count} <button onClick={() => setCount(count + step)}> + </button>
         </p>
         <p>
+          {/* If statement inside and if statement */}
           {count === 0
             ? "Today is"
             : count < 0
@@ -48,6 +49,7 @@ const DateCounter = () => {
         <br />
         <h3>Date counter v2</h3>
         <div>
+          {/* Range that can i use for product sorting using price min max */}
           <input
             type="range"
             value={nStep}
